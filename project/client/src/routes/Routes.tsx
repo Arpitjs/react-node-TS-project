@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { WelcomePage } from '../pages/WelcomePage/WelcomePage';
 import { SignUpPage } from '../pages/SignupPage/SignupPage';
-import { PlaygroundPage } from '../pages/ContactPage/ContactPage';
+import { ContactPage } from '../pages/ContactPage/ContactPage';
 import { LoginPage } from '../pages/LoginPage/LoginPage';
 
 export const PagesRoutes = () => {
@@ -11,7 +11,7 @@ export const PagesRoutes = () => {
       <Route path='/' element={<WelcomePage />} />
       <Route path='/signup' element={<SignUpPage />} />
       <Route path='/login' element={<LoginPage />} />
-      <Route path='/playground' element={<PlaygroundPage />} />
+      <Route path='/contacts' element={<ContactPage />} />
     </Routes>
   );
 };

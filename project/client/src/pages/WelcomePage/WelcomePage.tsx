@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledWelcomePage, StyledWelcomeModal, StyledNavLink } from './styled/WelcomePage.styled';
 import { Button } from '../../components/Button';
-import { PlaygroundPage } from '../ContactPage/ContactPage';
+import { ContactPage } from '../ContactPage/ContactPage';
 
 interface NavLinkProps {
   type: 'button';
@@ -34,7 +34,7 @@ export const WelcomePage = () => {
           </StyledWelcomeModal>
         </StyledWelcomePage>
       ) : (
-        <PlaygroundPage />
+        <ContactPage />
       )}
     </>
   );

@@ -10,7 +10,7 @@ import { Button } from '../../components/Button';
 import { getAllUsers, deleteUserById, updateUserEmailById } from '../../services/usersService';
 import { Modal } from '../../components/Modal';
 
-export const PlaygroundPage = () => {
+export const ContactPage = () => {
   const { users, setUsers } = UsersState();
   const [isOpen, setIsOpen] = useState(false);
   const [userToUpdate, setUserToUpdate] = useState(0);
