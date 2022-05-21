@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { WelcomePage } from '../pages/WelcomePage/WelcomePage';
 import { SignUpPage } from '../pages/SignupPage/SignupPage';
-import { ContactPage } from '../pages/ContactPage/ContactPage';
 import { LoginPage } from '../pages/LoginPage/LoginPage';
+import { ContactPage } from '../pages/ContactPage/ContactPage';
 
 export const PagesRoutes = () => {
   return (

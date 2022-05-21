@@ -1,5 +1,5 @@
 import React, { InputHTMLAttributes, ChangeEvent } from 'react';
-import { StyledCheckbox } from './styled/Checkbox.styled';
+import { StyledCheckbox } from '../styles/Checkbox.styled';
 
 interface CheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
   label: string;

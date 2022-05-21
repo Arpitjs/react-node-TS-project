@@ -1,6 +1,6 @@
 import React, { InputHTMLAttributes } from 'react';
 import { Path, DeepMap, FieldErrors, UseFormRegister } from 'react-hook-form';
-import { StyledInput } from './styled/Input.styled';
+import { StyledInput } from '../styles/Input.styled';
 import { FormTypes } from '../pages/SignupPage/Form';
 import { LoginFormTypes } from '../pages/LoginPage/Form';
 

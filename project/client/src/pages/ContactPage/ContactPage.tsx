@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyledPlaygroundPage, StyledUsersList, StyledNavLink } from './Contact.styled';
+import { StyledPlaygroundPage, StyledUsersList, StyledNavLink } from '../../styles/Contact.styled';
 import { UsersState } from '../../state/usersState';
 import { TiTick } from 'react-icons/ti';
 import { ImCross } from 'react-icons/im';

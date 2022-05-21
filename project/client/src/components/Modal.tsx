@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction, useState, ChangeEvent } from 'react';
 import { createPortal } from 'react-dom';
-import { StyledModal } from './styled/Modal.styled';
+import { StyledModal } from '../styles/Modal.styled';
 import { Button } from './Button';
 
 interface IModal {

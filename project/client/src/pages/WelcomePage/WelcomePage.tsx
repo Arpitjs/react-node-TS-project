@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledWelcomePage, StyledWelcomeModal, StyledNavLink } from './styled/WelcomePage.styled';
+import { StyledWelcomePage, StyledWelcomeModal, StyledNavLink } from '../../styles/WelcomePage.styled';
 import { Button } from '../../components/Button';
 import { ContactPage } from '../ContactPage/ContactPage';
 

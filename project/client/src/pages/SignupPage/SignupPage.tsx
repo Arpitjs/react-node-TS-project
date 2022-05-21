@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyledSignupPage, StyledNavLink } from './styled/Signup.styled';
+import { StyledLoginPage, StyledNavLink } from '../../styles/Login.styled';
 import { Form } from './Form';
 import { IoChevronBackCircle } from 'react-icons/io5';
 import { theme } from '../../styles/theme';
 
 export const SignUpPage = () => {
   return (
-    <StyledSignupPage>
+    <StyledLoginPage>
       <div>
         <span>
           <StyledNavLink to={'/'}>
@@ -15,6 +15,6 @@ export const SignUpPage = () => {
         </span>
         <Form />
       </div>
-    </StyledSignupPage>
+    </StyledLoginPage>
   );
 };

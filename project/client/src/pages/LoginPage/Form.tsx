@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { joiResolver } from '@hookform/resolvers/joi';
 import { loginSchema } from '../../utils/formValidation';
-import { StyledForm } from './styled/Form.styled';
+import { StyledForm } from '../../styles/Form.styled';
 import { LoginInput } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { getAllUsers, loginUser } from '../../services/usersService';
@@ -31,7 +31,7 @@ export const Form = () => {
 
     if (res) {
       setUsers(res);
-      navigate('/playground');
+      navigate('/contacts');
     } else {
       // show message
     }
